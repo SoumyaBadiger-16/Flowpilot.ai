@@ -871,7 +871,7 @@ def seed(s):
         id_val, name, price, cost, desc, tags, cust, intent, points, category, compat, alt, bundle_elig, priority = row
         s.add(Product(
             id=id_val, name=name, price=float(price), cost_price=float(cost), description=desc,
-            category=category, attributes={"tags": tags}, rating=4.2 + (id_val % 9) * 0.1,
+            category=category, inventory=100, attributes={"tags": tags}, rating=4.2 + (id_val % 9) * 0.1,
             use_cases=tags, target_customer=cust, product_intent=intent, selling_points=points,
             compatible_products=compat, alternative_products=alt, bundle_eligibility=bundle_elig,
             merchant_priority=priority, active=True
