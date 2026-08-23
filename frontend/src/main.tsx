@@ -2,7 +2,8 @@ import React, { useEffect, useState, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL === 'http://localhost:8000' || import.meta.env.VITE_API_URL === 'http://127.0.0.1:8000' ? '' : (import.meta.env.VITE_API_URL || '');
+// Always use the frontend's same-origin proxy so Preview browsers never try to reach localhost directly.
+const API = '';
 
 // Global types
 type User = { name: string; email: string; role: string };
