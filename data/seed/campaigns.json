@@ -1,0 +1,7 @@
+[
+  {"name":"Office wireless bundle","categories":["Office","Accessories"],"max_discount_percent":7,"active":true},
+  {"name":"Productivity pairing","categories":["Electronics","Accessories"],"max_discount_percent":7,"active":true},
+  {"name":"Fitness essentials","categories":["Fitness"],"max_discount_percent":5,"active":true},
+  {"name":"Travel ready","categories":["Travel","Lifestyle"],"max_discount_percent":5,"active":true},
+  {"name":"Gaming pair","categories":["Gaming","Accessories"],"max_discount_percent":6,"active":true}
+]
